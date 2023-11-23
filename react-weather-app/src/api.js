@@ -1,14 +1,11 @@
-const { REACT_APP_GEO_API_URL, REACT_APP_WEATHER_API_URL, REACT_APP_WEATHER_API_KEY, REACT_APP_GEO_API_KEY, REACT_APP_GEO_API_HOST } = process.env;
-
-export const GEO_API_URL = REACT_APP_GEO_API_URL;
-export const WEATHER_API_URL = REACT_APP_WEATHER_API_URL;
-export const WEATHER_API_KEY = REACT_APP_WEATHER_API_KEY;
+export const GEO_API_URL = process.env.REACT_APP_GEO_API_URL;
+export const WEATHER_API_URL = process.env.REACT_APP_WEATHER_API_URL;
+export const WEATHER_API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
 export const geoApiOptions = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': REACT_APP_GEO_API_KEY,
-    'X-RapidAPI-Host': REACT_APP_GEO_API_HOST,
+    'X-RapidAPI-Key': process.env.REACT_APP_GEO_API_KEY,
+    'X-RapidAPI-Host': process.env.REACT_APP_GEO_API_HOST,
   }
 };
-
