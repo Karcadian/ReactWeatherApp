@@ -32,7 +32,7 @@
     text-align: right;
 }
 
-.min-max{
+.min-max {
     color: #757575;
 }
 
@@ -47,16 +47,13 @@
     padding: 5px 15px;
 }
 
-.daily-details-grid-item{
+.daily-details-grid-item {
     display: flex;
     height: 30px;
     justify-content: space-between;
     align-items: center;
 }
 
-.daily-details-grid-item:first-child{
-    color: #757575;
-}
-.daily-details-grid-item:last-child{
+.daily-details-grid-item {
     color: #212121;
 }
