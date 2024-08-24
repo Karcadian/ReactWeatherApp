@@ -21,8 +21,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
-=======
-
-api.js
->>>>>>> dad5fab5 (Initial commit)
+.DS_Store
