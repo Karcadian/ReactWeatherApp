@@ -54,6 +54,13 @@
     align-items: center;
 }
 
+<<<<<<< HEAD
 .daily-details-grid-item{
+=======
+.daily-details-grid-item:first-child{
+    color: #757575;
+}
+.daily-details-grid-item:last-child{
+>>>>>>> dad5fab5 (Initial commit)
     color: #212121;
 }
